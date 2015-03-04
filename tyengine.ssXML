@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Base Engine Library</Name>
+  <Header>namespace tycho
+{
+namespace engine
+{
+
+    $(ClassDef)
+
+} // end namespace
+} // end namespace</Header>
+  <Source>namespace tycho
+{
+namespace engine
+{
+
+
+} // end namespace
+} // end namespace</Source>
+  <TestCase />
+  <SrcDir>./</SrcDir>
+  <IncDir>./</IncDir>
+  <TestsDir>tests</TestsDir>
+  <HdrIncludes>#include "engine/engine_abi.h"</HdrIncludes>
+  <SrcIncludes />
+  <ABI>ENGINE_ABI</ABI>
+</ProjectSettings>
